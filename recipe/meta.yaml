@@ -1,5 +1,5 @@
 {% set name = "sphinxtesters" %}
-{% set version = "0.2.3" %}
+{% set version = "0.2.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0b3a22cb299c48728759e3138edc2c5188f74d8e7fdd3cd57b307060ccea9d4c 
+  sha256: 09c456e1cd61ec99b64851e2990d2152fdf05bb53d87f3b294f22d73f939d6ca
 
 build:
   noarch: python
@@ -34,7 +34,7 @@ about:
   license_family: BSD
   license_file: LICENSE
   summary: Utilities for testing Sphinx extensions
-  
+
   description: |
     Utilities for testing Sphinx extensions
   doc_url: http://github.com/matthew-brett/sphinxtesters
@@ -42,4 +42,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - CurtLH 
+    - CurtLH
